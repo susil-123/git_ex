@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Square+Peg&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-wrap{
+    background-color: black;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+img{
+    width: 100%;
+}
+.srch{
+    border: none;
+    padding: 4px;
+    width: 300px;
+    border-bottom: 1PX SOLID white;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.icon{
+    display: inline
+}
+.login-btn{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.login-btn:hover{
+    background-color: white;
+    color: black;
+}
+.create-btn{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+}
+.create-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.content{
+    background-image: url("./images/backgrnd-cnt.jpg");
+    background-size: cover;
+    height: 9in;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.txt1 h3{
+    margin-top: 3in;
+    font-size: 100px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 10px;
+}
+
+.txt1 p{
+    font-size: 60px;
+    color: white;
+    font-family: 'Square Peg', cursive;
+}
+/* .button{
+
+    border: none;
+    display: inline-block;
+    background-color: white;
+} */
+.trial-btn{
+    border: none;
+    display: inline-block;
+    background-color: white;
+    padding: 10px 1in;
+    margin-left: 7in;
+    margin-top: 54px;
+    border-radius: 5px;
+}
+.trial-btn:hover{
+    background-color: black;
+    color: white;
+}
